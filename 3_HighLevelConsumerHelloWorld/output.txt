@@ -1,0 +1,64 @@
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Producer topic1	 Message: Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.1
+Consumer constructor created successfully
+Producer topic1	 Message: Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.1
+Producer topic1	 Message: Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.3
+Producer topic1	 Message: Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.1
+Producer topic1	 Message: Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.1
+Producer topic1	 Message: Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.2
+Producer topic1	 Message: Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.2
+Producer topic1	 Message: Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.3
+Producer topic1	 Message: Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.0
+Producer topic1	 Message: Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.3
+Producer topic1	 Message: Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.3
+Producer topic1	 Message: Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.2
+Producer topic1	 Message: Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.3
+Producer topic1	 Message: Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.1
+Producer topic1	 Message: Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.1
+Producer topic1	 Message: Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.1
+Producer topic1	 Message: Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.3
+Producer topic1	 Message: Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.3
+Producer topic1	 Message: Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.2
+Producer topic1	 Message: Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.2
+Topic: topic1 Received message: (192.168.14.2, Sun Jan 24 13:41:28 PST 2016,kafka.apache.org,192.168.14.2) at offset 90
+Topic: topic1 Received message: (192.168.14.0, Sun Jan 24 13:41:28 PST 2016,kafka.apache.org,192.168.14.0) at offset 91
+Topic: topic1 Received message: (192.168.14.2, Sun Jan 24 13:41:28 PST 2016,kafka.apache.org,192.168.14.2) at offset 92
+Topic: topic1 Received message: (192.168.14.1, Sun Jan 24 13:41:28 PST 2016,kafka.apache.org,192.168.14.1) at offset 93
+Topic: topic1 Received message: (192.168.14.3, Sun Jan 24 13:41:28 PST 2016,kafka.apache.org,192.168.14.3) at offset 94
+Topic: topic1 Received message: (192.168.14.0, Sun Jan 24 13:41:28 PST 2016,kafka.apache.org,192.168.14.0) at offset 95
+Topic: topic1 Received message: (192.168.14.2, Sun Jan 24 13:41:28 PST 2016,kafka.apache.org,192.168.14.2) at offset 96
+Topic: topic1 Received message: (192.168.14.0, Sun Jan 24 13:41:28 PST 2016,kafka.apache.org,192.168.14.0) at offset 97
+Topic: topic1 Received message: (192.168.14.1, Sun Jan 24 13:41:28 PST 2016,kafka.apache.org,192.168.14.1) at offset 98
+Topic: topic1 Received message: (192.168.14.3, Sun Jan 24 13:41:28 PST 2016,kafka.apache.org,192.168.14.3) at offset 99
+Topic: topic1 Received message: (192.168.14.1, Sun Jan 24 13:41:28 PST 2016,kafka.apache.org,192.168.14.1) at offset 100
+Topic: topic1 Received message: (192.168.14.3, Sun Jan 24 13:41:28 PST 2016,kafka.apache.org,192.168.14.3) at offset 101
+Topic: topic1 Received message: (192.168.14.1, Sun Jan 24 13:41:28 PST 2016,kafka.apache.org,192.168.14.1) at offset 102
+Topic: topic1 Received message: (192.168.14.1, Sun Jan 24 13:41:28 PST 2016,kafka.apache.org,192.168.14.1) at offset 103
+Topic: topic1 Received message: (192.168.14.4, Sun Jan 24 13:41:28 PST 2016,kafka.apache.org,192.168.14.4) at offset 104
+Topic: topic1 Received message: (192.168.14.1, Sun Jan 24 13:41:28 PST 2016,kafka.apache.org,192.168.14.1) at offset 105
+Topic: topic1 Received message: (192.168.14.3, Sun Jan 24 13:41:28 PST 2016,kafka.apache.org,192.168.14.3) at offset 106
+Topic: topic1 Received message: (192.168.14.0, Sun Jan 24 13:41:28 PST 2016,kafka.apache.org,192.168.14.0) at offset 107
+Topic: topic1 Received message: (192.168.14.1, Sun Jan 24 13:41:28 PST 2016,kafka.apache.org,192.168.14.1) at offset 108
+Topic: topic1 Received message: (192.168.14.3, Sun Jan 24 13:41:28 PST 2016,kafka.apache.org,192.168.14.3) at offset 109
+Topic: topic1 Received message: (192.168.14.1, Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.1) at offset 110
+Topic: topic1 Received message: (192.168.14.1, Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.1) at offset 111
+Topic: topic1 Received message: (192.168.14.3, Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.3) at offset 112
+Topic: topic1 Received message: (192.168.14.1, Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.1) at offset 113
+Topic: topic1 Received message: (192.168.14.1, Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.1) at offset 114
+Topic: topic1 Received message: (192.168.14.2, Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.2) at offset 115
+Topic: topic1 Received message: (192.168.14.2, Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.2) at offset 116
+Topic: topic1 Received message: (192.168.14.3, Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.3) at offset 117
+Topic: topic1 Received message: (192.168.14.0, Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.0) at offset 118
+Topic: topic1 Received message: (192.168.14.3, Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.3) at offset 119
+Topic: topic1 Received message: (192.168.14.3, Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.3) at offset 120
+Topic: topic1 Received message: (192.168.14.2, Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.2) at offset 121
+Topic: topic1 Received message: (192.168.14.3, Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.3) at offset 122
+Topic: topic1 Received message: (192.168.14.1, Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.1) at offset 123
+Topic: topic1 Received message: (192.168.14.1, Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.1) at offset 124
+Topic: topic1 Received message: (192.168.14.1, Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.1) at offset 125
+Topic: topic1 Received message: (192.168.14.3, Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.3) at offset 126
+Topic: topic1 Received message: (192.168.14.3, Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.3) at offset 127
+Topic: topic1 Received message: (192.168.14.2, Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.2) at offset 128
+Topic: topic1 Received message: (192.168.14.2, Sun Jan 24 13:44:32 PST 2016,kafka.apache.org,192.168.14.2) at offset 129

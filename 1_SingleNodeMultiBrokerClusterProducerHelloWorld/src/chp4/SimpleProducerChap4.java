@@ -33,7 +33,7 @@ public class SimpleProducerChap4 {
 		simpleProducer.publishMessage(topic, messageCount);
 	}
 
-	private void publishMessage(String topic, int messageCount) {
+	public void publishMessage(String topic, int messageCount) {
 		for (int mCount = 0; mCount < messageCount; mCount++) {
 			String runtime = new Date().toString();
 
