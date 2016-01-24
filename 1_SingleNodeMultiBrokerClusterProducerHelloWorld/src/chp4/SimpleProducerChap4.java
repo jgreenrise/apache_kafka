@@ -1,13 +1,10 @@
 package chp4;
 
-import org.apache.kafka.clients.producer.Callback;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
-import org.apache.kafka.clients.producer.RecordMetadata;
 
 import java.util.Date;
 import java.util.Properties;
-import java.util.concurrent.ExecutionException;
 
 public class SimpleProducerChap4 {
 	private static KafkaProducer<String, String> producer;

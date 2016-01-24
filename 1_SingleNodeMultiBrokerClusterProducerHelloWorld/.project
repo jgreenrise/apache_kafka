@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Kafka_helloWorld_producer</name>
+	<name>1_SingleNodeMultiBrokerClusterProducerHelloWorld</name>
 	<comment></comment>
 	<projects>
 	</projects>
