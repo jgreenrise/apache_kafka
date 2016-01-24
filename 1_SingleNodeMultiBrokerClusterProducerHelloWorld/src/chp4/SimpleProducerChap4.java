@@ -11,23 +11,12 @@ public class SimpleProducerChap4 {
 
 	public SimpleProducerChap4() {
 		Properties props = new Properties();
-		
 		props.put("bootstrap.servers", "localhost:9092");
-
-		// Set the broker list for requesting metadata to find the lead broker
 		props.put("metadata.broker.list", "localhost:9092, localhost:9093, localhost:9094");
-
-		// This specifies the serializer class for keys
 		props.put("serializer.class", "kafka.serializer.StringEncoder");
-
-		// 1 means the producer receives an acknowledgment once the lead replica
-		// has received the data. This option provides better durability as the
-		// client waits until the server acknowledges the request as successful.
 		props.put("request.required.acks", "1");
-		
 		props.put("key.serializer", "org.apache.kafka.common.serialization.IntegerSerializer");
 		props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
-		//ProducerConfig config = new ProducerConfig(props);
 		producer = new KafkaProducer<String, String>(props);
 	}
 
@@ -35,15 +24,11 @@ public class SimpleProducerChap4 {
 		int argsCount = args.length;
 		if (argsCount == 0 || argsCount == 1)
 			throw new IllegalArgumentException("Please provide topic name and Message count as arguments");
-
-		// Topic name and the message count to be published is passed from the
-		// command line
 		String topic = (String) args[0];
 		String count = (String) args[1];
 		int messageCount = Integer.parseInt(count);
 		System.out.println("Topic Name - " + topic);
 		System.out.println("Message Count - " + messageCount);
-
 		SimpleProducerChap4 simpleProducer = new SimpleProducerChap4();
 		simpleProducer.publishMessage(topic, messageCount);
 	}
@@ -54,16 +39,8 @@ public class SimpleProducerChap4 {
 
 			String msg = "Message Publishing Time - " + runtime;
 			System.out.println(msg);
-			// Creates a KeyedMessage instance
-			//KeyedMessage<String, String> data = new KeyedMessage<String, String>(topic, msg);
-
-			 producer.send(new ProducerRecord<String, String>(topic, msg));
-	            
-			
-			// Publish the message
-			//producer.send(data);
+			producer.send(new ProducerRecord<String, String>(topic, msg));
 		}
-		// Close producer connection with broker.
 		producer.close();
 	}
 }
